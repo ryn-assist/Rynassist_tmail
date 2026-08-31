@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="template-overrides.css" />
 </head>
 <body>
   <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
@@ -18,36 +19,13 @@
     <div class="header-actions"><button class="btn btn-light" data-demo="login">Masuk</button><button class="btn btn-primary" data-demo="register">Daftar</button></div>
     <button class="menu-btn" aria-label="Menu">☰</button>
   </header>
-
   <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">PRIVATE MAIL • DONGHUA INSPIRED</p>
-        <h1>Emailmu,<br><em>Duniamu.</em><span class="seal-text">天域</span></h1>
-        <p class="lead">Buat email dengan sentuhan dunia donghua.<br>Aman, elegan, dan hanya untukmu.</p>
-        <div class="mini-benefits"><span>♙<b>Aman & Privat</b></span><span>♙<b>Password Tiap Email</b></span><span>▣<b>Aktif 1 Tahun</b></span><span>◇<b>Tanpa Biaya Bulanan</b></span></div>
-        <button class="btn btn-primary hero-btn" data-demo="register">MULAI SEKARANG <span>→</span></button>
-        <div class="theme-strip"><b>Pilih Theme Favoritmu</b><div class="theme-pills"><button class="theme-pill selected"><img src="1fa1f8fbf834ac7600cdca882119d1ac.jpg" alt="Crimson Blossom"><span>Crimson</span></button><button class="theme-pill"><span class="dummy-art">✦</span><span>Dragon</span></button><button class="theme-pill"><span class="dummy-art blue">☾</span><span>Moonlit</span></button><button class="theme-pill"><span class="dummy-art gray">❄</span><span>Ice Realm</span></button></div></div>
-      </div>
-      <div class="hero-character-wrap"><div class="backdrop-circle"></div><div class="pagoda-lines"></div><img class="hero-character" src="1fa1f8fbf834ac7600cdca882119d1ac.jpg" alt="Karakter utama RYN ASSIST TMail"><div class="petal-spark">✦</div></div>
-    </section>
-
-    <section class="login-showcase">
-      <div class="login-art"><div class="gold-ring"></div><img src="5dd844e47be4b165d087473b27b9fac4.jpg" alt="Karakter kedua RYN ASSIST TMail"></div>
-      <div class="login-card"><div class="login-logo"><span class="brand-emblem">✦</span><span><strong>RYN ASSIST</strong><small>TMAIL</small></span></div><h2>Selamat Datang Kembali!</h2><p>Masuk untuk melanjutkan ke duniamu.</p><label>Email / Username<input placeholder="Masukkan email atau username"></label><label>Password <a href="#">Lupa password?</a><input type="password" placeholder="Masukkan password"></label><label class="remember"><input type="checkbox"> Ingat saya</label><button class="btn btn-primary full" data-demo="login">MASUK</button><div class="or">atau masuk dengan</div><div class="socials"><button>G</button><button>◈</button><button>𝕏</button></div><small class="register-hint">Belum punya akun? <a href="#" data-demo="register">Daftar sekarang</a></small></div>
-    </section>
-
+    <section class="hero"><div class="hero-copy"><p class="eyebrow">PRIVATE MAIL • DONGHUA INSPIRED</p><h1>Emailmu,<br><em>Duniamu.</em><span class="seal-text">天域</span></h1><p class="lead">Buat email dengan sentuhan dunia donghua.<br>Aman, elegan, dan hanya untukmu.</p><div class="mini-benefits"><span>♙<b>Aman & Privat</b></span><span>♙<b>Password Tiap Email</b></span><span>▣<b>Aktif 1 Tahun</b></span><span>◇<b>Tanpa Biaya Bulanan</b></span></div><button class="btn btn-primary hero-btn" data-demo="register">MULAI SEKARANG <span>→</span></button><div class="theme-strip"><b>Pilih Theme Favoritmu</b><div class="theme-pills"><button class="theme-pill selected"><img src="1fa1f8fbf834ac7600cdca882119d1ac.jpg" alt="Crimson Blossom"><span>Crimson</span></button><button class="theme-pill"><span class="dummy-art">✦</span><span>Dragon</span></button><button class="theme-pill"><span class="dummy-art blue">☾</span><span>Moonlit</span></button><button class="theme-pill"><span class="dummy-art gray">❄</span><span>Ice Realm</span></button></div></div></div><div class="hero-character-wrap"><div class="backdrop-circle"></div><div class="pagoda-lines"></div><img class="hero-character" src="1fa1f8fbf834ac7600cdca882119d1ac.jpg" alt="Karakter utama RYN ASSIST TMail"><div class="petal-spark">✦</div></div></section>
+    <section class="login-showcase"><div class="login-art"><div class="gold-ring"></div><img src="5dd844e47be4b165d087473b27b9fac4.jpg" alt="Karakter kedua RYN ASSIST TMail"></div><div class="login-card"><div class="login-logo"><span class="brand-emblem">✦</span><span><strong>RYN ASSIST</strong><small>TMAIL</small></span></div><h2>Selamat Datang Kembali!</h2><p>Masuk untuk melanjutkan ke duniamu.</p><label>Email / Username<input placeholder="Masukkan email atau username"></label><label>Password <a href="#">Lupa password?</a><input type="password" placeholder="Masukkan password"></label><label class="remember"><input type="checkbox"> Ingat saya</label><button class="btn btn-primary full" data-demo="login">MASUK</button><div class="or">atau masuk dengan</div><div class="socials"><button>G</button><button>◈</button><button>𝕏</button></div><small class="register-hint">Belum punya akun? <a href="#" data-demo="register">Daftar sekarang</a></small></div></section>
     <section id="features" class="section-wrap why"><div class="section-title"><p class="eyebrow">WHY RYN ASSIST?</p><h2>Lebih dari sekadar <em>email.</em></h2></div><div class="feature-row"><article><span>♙</span><b>Password Tiap Email</b><p>Setiap mailbox punya akses sendiri.</p></article><article><span>♜</span><b>Lebih Aman</b><p>Privasi terjaga, hanya kamu yang bisa akses.</p></article><article><span>▣</span><b>Aktif 1 Tahun</b><p>Bayar sekali, aktif setahun penuh.</p></article><article><span>◇</span><b>Tanpa Biaya Bulanan</b><p>Tidak ada biaya tersembunyi.</p></article></div></section>
-
     <section class="dashboard-preview section-wrap"><div class="dashboard-head"><div class="dash-brand">✦ <b>RYN ASSIST</b><small>TMAIL</small></div><div class="dash-search">Cari email... <span>⌕</span></div><button class="btn btn-primary">＋ Buat Email Baru</button><span>♧</span><span>▦</span></div><div class="dashboard-grid"><aside class="dash-sidebar"><div class="profile"><div class="avatar"><img src="5dd844e47be4b165d087473b27b9fac4.jpg" alt="Profil"></div><div><b>Xiao Yao</b><small>xiao.yao@rynassist.com</small><em>Premium</em></div></div><div class="side-active">✉ Inbox <b>12</b></div><div>➤ Terkirim</div><div>▱ Draft</div><div>♜ Sampah</div><div>⊗ Spam</div><div>☆ Berbintang</div><div>⚙ Pengaturan</div><div>♙ Akun & Keamanan</div></aside><div class="mail-panel"><h2>Inbox</h2><small>12 pesan</small><div class="mail-row active"><i>☆</i><div><b>System Notification</b><small>Selamat datang di Ryn Assist TMail</small></div><time>09:21</time></div><div class="mail-row"><i>☆</i><div><b>Mo Tian Sect</b><small>Verifikasi Akun Anda</small></div><time>08:52</time></div><div class="mail-row"><i>☆</i><div><b>Heavenly Palace</b><small>Pengumuman Event Special</small></div><time>Kemarin</time></div><div class="mail-row"><i>☆</i><div><b>Cloud Immortal Shop</b><small>Pembelian Berhasil</small></div><time>Kemarin</time></div><div class="mail-row"><i>☆</i><div><b>Yun Qi</b><small>Pesan untukmu</small></div><time>2 Mei</time></div></div><div class="dashboard-art"><div class="art-circle"></div><img src="1fa1f8fbf834ac7600cdca882119d1ac.jpg" alt="Character artwork"></div></div></section>
-
     <section id="themes" class="section-wrap themes"><div class="section-title"><p class="eyebrow">THEME STORE</p><h2>Pilih duniamu, <em>sesukamu.</em></h2></div><div class="theme-grid"><article class="theme-card featured"><img src="1fa1f8fbf834ac7600cdca882119d1ac.jpg" alt="Crimson Blossom"><div><span>ACTIVE</span><b>Crimson Blossom</b><small>Soft red • White • Gold</small></div></article><article class="theme-card moon"><div class="dummy-large">☾</div><div><b>Moonlit</b><small>Coming soon</small></div></article><article class="theme-card dragon"><div class="dummy-large">✦</div><div><b>Dragon</b><small>Coming soon</small></div></article></div></section>
-
     <section id="pricing" class="section-wrap pricing"><div class="pricing-card"><div><p class="eyebrow">PREMIUM 1 TAHUN</p><h2>Rp 299.000</h2><p>Bayar sekali, aktif selama satu tahun.</p></div><div class="checks"><span>✓ Buat Banyak Email</span><span>✓ Password Tiap Email</span><span>✓ Custom Domain (Opsional)</span><span>✓ Theme Eksklusif</span><span>✓ Support Premium</span></div><button class="btn btn-primary">Pilih Paket Ini</button></div></section>
-
     <section id="help" class="final"><div><p class="eyebrow">RYN ASSIST TMAIL</p><h2>Masuk ke <em>duniamu.</em></h2><p>Personal, elegan, dan dibuat dengan rasa.</p><button class="btn btn-primary btn-large" data-demo="register">Buat Mailbox →</button></div></section>
-  </main>
-  <footer><div class="brand"><span class="brand-emblem">✦</span><span><strong>RYN ASSIST</strong><small>TMAIL</small></span></div><span>© 2026 RYN ASSIST TMail</span></footer>
-  <div class="toast" id="toast"></div><script src="app.js"></script>
-</body>
-</html>
+  </main><footer><div class="brand"><span class="brand-emblem">✦</span><span><strong>RYN ASSIST</strong><small>TMAIL</small></span></div><span>© 2026 RYN ASSIST TMail</span></footer><div class="toast" id="toast"></div><script src="app.js"></script>
+</body></html>
